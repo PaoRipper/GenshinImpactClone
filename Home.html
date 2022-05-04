@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/app.css">
+    <script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <iframe width="0" height="0" src="https://www.youtuberepeater.com/watch?v=Mcz3yZSUVI8#gsc.tab=0" frameborder="0" allowfullscreen autoplay></iframe>
+    <title>TRIAL</title>
+  </head>
+  
+  <body>
+    
+
+    <nav id="header" class="navbar navbar-expand-lg bg-dark fixed-top py-0 text-light">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="https://genshin.mihoyo.com/_nuxt/img/09cac33.png" height="60" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a id="home" class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="News.html">NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Characters.html">CHARACTERS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                EXPLORE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">MANGA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">FORUMS</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="Login">Log In   <i class="fas fa-user-plus"></i></a>
+            </li>
+          </ul>
+        </div>
+     </div>
+      </nav>
+      <!-- <embed name="GoodEnough" src="https://www.youtube.com/watch?v=kHfd0Jt0AvA" loop="false" hidden="true" autostart="true"> -->
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+               <div id = "content">
+                   <p>Of the Land Amidst Monoliths | Genshin Impact</p>
+                   <button id="register" class="btn btn-lg">Register Now</button>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup">
+      <div class="popup-content">
+        <h6 class="headingLogin">Account Log In</h6>
+        <input type="text" placeholder="Username/Email" id="user" style="display: block;">
+        <input type="password" placeholder="Password" id = "password">
+        <button class="btn btn-dark login">Log In  </button>
+        <a id="sub1" href="https://account.mihoyo.com/#/forgetPassword?lang=en-us" target="_blank">Having Problems?</a>
+        <a class = "to-register" " href="#" target="">Register Now</a>
+        <h5>Or log in using social media</h5>
+        <img class="close" src="close.png" alt="">
+        <a href="https://www.facebook.com/"><img id="facebook" src="data:image/png;base64,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" alt=""></a>
+
+      </div>
+    </div>
+    
+    <div class = "register-popup">
+        <div class = "register-content">
+          <h6>Register</h6>
+          <input type="text" placeholder = "Username/Email">
+          <div style = "display: inline-block;">
+            <input type="text" placeholder = "Verification Code"><span>Send Code</span>
+          </div>
+
+          <input type="password" placeholder = "Password">
+          <input type="password" placeholder="Confirm password">
+          <div class = "date-of-birth">
+            <label class = "dob-label"for="">Date of birth</label>
+            <div class = "dob-option">
+                <select name="dob-days" id="dob-days">
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select name="dob-month" id="dob-month">
+                    <option value="">Month</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <select name="dob-year" id="dob-year">
+                  <option value="">Year</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                  <option value="1998">1998</option>
+                  <option value="1997">1997</option>
+                  <option value="1996">1996</option>
+                  <option value="1995">1995</option>
+                  <option value="1994">1994</option>
+                  <option value="1993">1993</option>
+                  <option value="1992">1992</option>
+                  <option value="1991">1991</option>
+                  <option value="1990">1990</option>
+                  <option value="1989">1989</option>
+                  <option value="1988">1988</option>
+                  <option value="1987">1987</option>
+                  <option value="1986">1986</option>
+                  <option value="1985">1985</option>
+                  <option value="1984">1984</option>
+                  <option value="1983">1983</option>
+                  <option value="1982">1982</option>
+                  <option value="1981">1981</option>
+                  <option value="1980">1980</option>
+                  <option value="1979">1979</option>
+                  <option value="1978">1978</option>
+                  <option value="1977">1977</option>
+                  <option value="1976">1976</option>
+                  <option value="1975">1975</option>
+                  <option value="1974">1974</option>
+                  <option value="1973">1973</option>
+                  <option value="1972">1972</option>
+                  <option value="1971">1971</option>
+                  <option value="1970">1970</option>
+                  <option value="1969">1969</option>
+                  <option value="1968">1968</option>
+                  <option value="1967">1967</option>
+                  <option value="1966">1966</option>
+                  <option value="1965">1965</option>
+                  <option value="1964">1964</option>
+                  <option value="1963">1963</option>
+                  <option value="1962">1962</option>
+                  <option value="1961">1961</option>
+                  <option value="1960">1960</option>
+                  <option value="1959">1959</option>
+                  <option value="1958">1958</option>
+                  <option value="1957">1957</option>
+                  <option value="1956">1956</option>
+                  <option value="1955">1955</option>
+                  <option value="1954">1954</option>
+                  <option value="1953">1953</option>
+                  <option value="1952">1952</option>
+                  <option value="1951">1951</option>
+                  <option value="1950">1950</option>
+                  <option value="1949">1949</option>
+                  <option value="1948">1948</option>
+                  <option value="1947">1947</option>
+                  <option value="1946">1946</option>
+                  <option value="1945">1945</option>
+                  <option value="1944">1944</option>
+                  <option value="1943">1943</option>
+                  <option value="1942">1942</option>
+                  <option value="1941">1941</option>
+                  <option value="1940">1940</option>
+                  <option value="1939">1939</option>
+                  <option value="1938">1938</option>
+                  <option value="1937">1937</option>
+                  <option value="1936">1936</option>
+                  <option value="1935">1935</option>
+                  <option value="1934">1934</option>
+                  <option value="1933">1933</option>
+                  <option value="1932">1932</option>
+                  <option value="1931">1931</option>
+                  <option value="1930">1930</option>
+                  <option value="1929">1929</option>
+                  <option value="1928">1928</option>
+                  <option value="1927">1927</option>
+                  <option value="1926">1926</option>
+                  <option value="1925">1925</option>
+                  <option value="1924">1924</option>
+                  <option value="1923">1923</option>
+                  <option value="1922">1922</option>
+                  <option value="1921">1921</option>
+                  <option value="1920">1920</option>
+                  <option value="1919">1919</option>
+                  <option value="1918">1918</option>
+                  <option value="1917">1917</option>
+                  <option value="1916">1916</option>
+                  <option value="1915">1915</option>
+                  <option value="1914">1914</option>
+                  <option value="1913">1913</option>
+                  <option value="1912">1912</option>
+                  <option value="1911">1911</option>
+                  <option value="1910">1910</option>
+                  <option value="1909">1909</option>
+                  <option value="1908">1908</option>
+                  <option value="1907">1907</option>
+                  <option value="1906">1906</option>
+                  <option value="1905">1905</option>
+                  <option value="1904">1904</option>
+                  <option value="1903">1903</option>
+                  <option value="1901">1901</option>
+                  <option value="1900">1900</option>
+                </select>
+            </div>
+          </div>
+          <button class = "btn btn-dark mt-4">Register</button>
+          <a class = "back" href="">Back</a>
+        </div>
+    </div>
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
