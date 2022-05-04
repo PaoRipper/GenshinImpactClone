@@ -1,0 +1,17 @@
+body{
+    background: url("https://2.bp.blogspot.com/-YSRL7xmCD2Q/XQ8eHaJ9wkI/AAAAAAAAHtA/0-bVcL3HJmQ4eCCCJY8Sq9y0tGKoVw3IwCKgBGAs/w0/genshin-impact-uhdpaper.com-4K-1.jpg") no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background: rgba(0,0,0,0.7) !important;    
+}
+.nav-link:hover{
+    background: rgb(102, 222, 255);
+}
+
+li a.nav-link{
+    color: white;
+}
+html{
+	height: 100%;
+}

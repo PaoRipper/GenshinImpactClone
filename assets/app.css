@@ -1,0 +1,189 @@
+body{
+    background: url("https://2.bp.blogspot.com/-YSRL7xmCD2Q/XQ8eHaJ9wkI/AAAAAAAAHtA/0-bVcL3HJmQ4eCCCJY8Sq9y0tGKoVw3IwCKgBGAs/w0/genshin-impact-uhdpaper.com-4K-1.jpg") no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background: rgba(0,0,0,0.7) !important;    
+}
+.nav-link:hover{
+    background: rgb(102, 222, 255);
+}
+
+li a.nav-link{
+    color: white;
+}
+html{
+	height: 100%;
+}
+.nav-item{
+    padding-left: 20px;
+}
+#content{
+    text-align: center;
+    padding-top: 50%;
+}
+#register{
+    background: #f3c50d;
+    color: #815a34;
+    width: 280px;
+    height: 70px;
+    box-shadow: 0 10px 8px 0 rgba(110, 68, 19, 0.3);
+}
+.login{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p{
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 10px rgba(114, 71, 21, 0.68), 0 0 10px rgba(114, 71, 21, 0.68);
+}
+a.nav-link:hover{
+    background: #34495e;
+}
+h6:nth-of-type(1){
+    color: #ad8036;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 3px solid #ce965f
+}
+.popup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed ;
+}
+.popup-content{
+    display: block;
+    margin-top: 100px;
+    padding: 100px;
+    height: 700px;
+    width: 500px;
+    position: relative;
+    background: white;
+    box-shadow: 10px 11px 31px -10px rgba(0,0,0,1);
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    width: 300px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #f1f0f5;
+    border-left: 0px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+#sub1{
+    color: #c2925b;
+    font-weight: 100;
+    font-size: small;
+
+}
+h5{
+   color: grey;
+   font-weight: 100;
+   font-size: 0.9rem;
+   margin-top: 30px;
+   position: relative;
+   text-align: center;
+}
+h5::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1.5px;
+    background: #f2f3f5;
+    position: absolute;
+    left: 0;
+    top: 50%; 
+}
+h5::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1.5px;
+    background: #f2f3f5;
+    position: absolute; 
+    right: 0;
+    top: 50%;
+}
+#facebook{
+    margin: 15px 0px 0px 47%;
+    width: 33.6px;
+    height: 33.6px;
+}
+.close{
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    font-size: 0;
+    outline: none;
+    cursor: pointer;
+}
+#playIcon{
+    padding-top: 3px;
+    height: 40px;
+    width: 35px;
+    color: white;
+}
+a.nav-link:hover{
+    color: white;
+    background: steelblue;
+    transition: all 0.5s;
+}
+#register:hover{
+    filter: brightness(105%);
+}
+.register-popup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed ;
+}
+.register-content{
+    display: block;
+    margin-top: 100px;
+    padding: 100px;
+    height: 700px;
+    width: 500px;
+    position: relative;
+    background: white;
+    box-shadow: 10px 11px 31px -10px rgba(0,0,0,1);
+}
+.to-register{
+    color: #c2925b;
+    font-weight: 100;
+    font-size: small;
+    margin-left: 129px;
+}
+#dob-days,#dob-month,#dob-year{
+    width: 32%;
+}
+
+.register-button{
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(59,67,84);
+}
+#home{
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #0de3ff, 0 0 30px#0de3ff, 0 0 40px #0de3ff, 0 0 55px#0de3ff, 0 0 75px #0de3ff;
+}

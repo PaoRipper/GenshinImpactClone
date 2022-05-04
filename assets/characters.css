@@ -1,0 +1,128 @@
+body{
+    background: url("imgs/blurGen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: breath 100s linear infinite;
+}
+@keyframes breath {
+    0%   { background-size: 100% auto; }
+    50% { background-size: 140% auto; }
+    100% { background-size: 100% auto; }
+}
+.navbar{
+    background: rgba(0,0,0,0.7) !important;    
+}
+.nav-link:hover{
+    background: rgb(102, 222, 255);
+}
+.navbar-nav li a{
+    color : #ccc;
+}
+html,body{
+	height: 100%;
+}
+.nav-item{
+    padding-left: 20px;
+    
+}
+a.nav-link:hover{
+    background: #34495e;
+}
+a.nav-link:hover{
+    color: white;
+    background: steelblue;
+    transition: all 0.5s;
+}
+li a.nav-link{
+    color: white;
+}
+#content{
+    text-align: center;
+    padding-top: 50%;
+}
+#register{
+    background: #f3c50d;
+    color: #815a34;
+    width: 280px;
+    height: 70px;
+    box-shadow: 0 10px 8px 0 rgba(110, 68, 19, 0.3);
+}
+.login{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+a.nav-link:hover{
+    background: #34495e;
+}
+.characters{
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #0de3ff, 0 0 30px#0de3ff, 0 0 40px #0de3ff, 0 0 55px#0de3ff, 0 0 75px #0de3ff;
+}
+a{
+    display: block;
+    padding: 10px;
+}
+.city{
+    color: white;
+    background-color: ;
+}
+.city.monstadt{
+    background: rgba(0,0,0,0.7) !important;
+}
+.characters-city{
+    margin-top: 13%;
+    margin-left: 2%;
+    float: left;
+}
+.characters-content{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 13%;
+    float: left;
+}
+.characters-story{
+    background: rgba(0,0,0,0.7) !important;
+    color: white;
+    padding: 10px;
+    width: 50%;
+}
+p:nth-of-type(1){
+    padding-left: 30px;
+}
+p:nth-of-type(2){
+    padding-left: 30px;
+}
+.detail{
+    font-size: 1.8rem;
+    font-weight: 600;
+    background: #cca574;
+    width: fit-content;
+    -webkit-box-shadow: 6px 10px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 10px 14px -4px rgba(0,0,0,0.75);
+    box-shadow: 6px 10px 14px -4px rgba(0,0,0,0.75);
+}
+.name{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 60px;
+    color: white;
+    border-top: 5px solid #cca574;
+    line-height: 100px;
+    width: 15%;
+}
+button{
+    border: #967348;
+    background-color: #a6875e;
+}
+button:hover{
+    opacity: 0.7;
+}
+button:focus { 
+    outline: none; 
+}
+.jean{
+  z-index: -5;
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  top: -1px;
+  left: 300px;
+}
